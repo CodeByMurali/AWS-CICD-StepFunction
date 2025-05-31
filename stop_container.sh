@@ -5,7 +5,7 @@ set -e
 CONTAINER_NAME="simple-python-flask-app"
 
 # Find container ID(s) of any running container matching the name
-RUNNING_CONTAINER_ID=$(docker ps -q --filter "name=$CONTAINER_NAME")
+RUNNING_CONTAINER_ID=$(docker ps -aq --filter "name=$CONTAINER_NAME")
 
 if [ -n "$RUNNING_CONTAINER_ID" ]; then
   echo "Stopping running container(s) matching '$CONTAINER_NAME'..."
