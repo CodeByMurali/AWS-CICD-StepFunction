@@ -29,8 +29,17 @@ phases:
   post_build:
     commands:
       - echo "Build and push completed successfully!"
+      - echo "Listing all files in current directory:"
+      - ls -la
+      - echo "Checking if scripts exist:"
+      - ls -la *.sh || echo "No .sh files found"
+      - echo "Contents of artifact directory:"
+      - find . -name "*.sh" -type f
 
 artifacts:
   files:
-    - '**/*'
+    - "appspec.yml"
+    - "stop_container.sh"
+    - "start_container.sh"
+    - "**/*"
   base-directory: ./
