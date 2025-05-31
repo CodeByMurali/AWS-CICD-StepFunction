@@ -55,7 +55,7 @@ def hello():
         </head>
         <body>
             <div class="fancy-box">
-                <div class="glow-text">🚀 Hello, Numerix! 🌍</div>
+                <div class="glow-text">🚀 Hello, Murali! 🌍</div>
                 <p>Welcome to your super fancy Flask app.</p>
             </div>
         </body>
