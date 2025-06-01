@@ -51,6 +51,8 @@ This project implements a robust CI/CD pipeline using **AWS CodePipeline** and *
      * Final Lambda to update PR status with success.
 
 5. **Deployment:**
+   ![image](https://github.com/user-attachments/assets/cface629-bc1e-45a9-b5fb-dfa01d7bc6e4)
+
 
    * Upon success, CodeBuild handles the deployment to an **EC2 instance**, completing the CI/CD flow.
 
