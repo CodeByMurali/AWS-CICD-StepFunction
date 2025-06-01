@@ -1,4 +1,4 @@
-# 🛠️ CI/CD Pipeline with AWS Step Functions Orchestration
+# CI/CD Pipeline with AWS Step Functions Orchestration
 
 ## Overview
 
@@ -6,7 +6,7 @@ This project implements a robust CI/CD pipeline using **AWS CodePipeline** and *
 
 ![image](https://github.com/user-attachments/assets/c8d8f186-a7aa-41a0-bc67-654345679233)
 
-**🧠 Why Use AWS Step Functions?**
+** Why Use AWS Step Functions?**
 Using AWS Step Functions in this pipeline provides several key advantages:
 
 **Clear Orchestration & Visibility:**
@@ -71,7 +71,7 @@ Using AWS Step Functions in this pipeline provides several key advantages:
 
 
 
-## 🔧 Components Used
+## Components Used
 
 * **AWS CodePipeline** – For source tracking and triggering.
 * **AWS Step Functions** – For orchestrating test and validation stages.
@@ -79,7 +79,7 @@ Using AWS Step Functions in this pipeline provides several key advantages:
 * **AWS Lambda** – For notifications and status marking.
 * **Amazon EC2** – Target for final deployment.
 
-## ✅ Benefits
+## Benefits
 
 * Parallel execution of validations = faster feedback loop.
 * Error handling with graceful failover and detailed notifications.
