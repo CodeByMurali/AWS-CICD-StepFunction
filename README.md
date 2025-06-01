@@ -56,6 +56,10 @@ This project implements a robust CI/CD pipeline using **AWS CodePipeline** and *
 
    * Upon success, CodeBuild handles the deployment to an **EC2 instance**, completing the CI/CD flow.
 
+6. **Here is your Fancy app deployed**
+   ![image](https://github.com/user-attachments/assets/8ee55a4f-6abe-47f7-b2fa-85d2c60ef48d)
+
+
 ## 🔧 Components Used
 
 * **AWS CodePipeline** – For source tracking and triggering.
