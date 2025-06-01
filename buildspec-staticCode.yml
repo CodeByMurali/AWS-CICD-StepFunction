@@ -1,0 +1,33 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto11
+    commands:
+      - echo "Installing Sonar Scanner..."
+      - echo "Dummy installation complete."
+
+  pre_build:
+    commands:
+      - echo "Running SonarQube Static Analysis"
+      - echo "Simulating scan... done."
+
+  build:
+    commands:
+      - echo "Fetching SonarQube Quality Gate status..."
+      - echo "OK" > quality_gate_status.txt
+      - cat quality_gate_status.txt
+
+      # Optional: Uncomment below lines to simulate failure
+      # - |
+      #     if grep -qv "OK" quality_gate_status.txt; then
+      #       echo "❌ Simulated Quality Gate Failed. Failing the build."
+      #       exit 1
+      #     else
+      #       echo "✅ Simulated Quality Gate Passed"
+      #     fi
+
+artifacts:
+  files:
+    - quality_gate_status.txt
