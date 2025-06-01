@@ -10,6 +10,9 @@ This project implements a robust CI/CD pipeline using **AWS CodePipeline** and *
 
 ## Pipeline Workflow
 
+![image](https://github.com/user-attachments/assets/5143c751-6122-470e-adcb-55d959073d7e)
+
+
 1. **Trigger:**
 
    * A code change (commit or pull request) to the `main` branch of the source repository triggers **AWS CodePipeline**.
