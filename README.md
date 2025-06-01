@@ -2,11 +2,21 @@
 
 ## Overview
 
-This project implements a robust CI/CD pipeline using **AWS CodePipeline** and **AWS Step Functions** to automate and orchestrate application testing and deployment workflows for the `Numerix-webapp`.
+This project implements a robust CI/CD pipeline using **AWS CodePipeline** and **AWS Step Functions** to automate and orchestrate application testing and deployment workflows for the `Flask-webapp`.
 
 ![image](https://github.com/user-attachments/assets/c8d8f186-a7aa-41a0-bc67-654345679233)
 
+**🧠 Why Use AWS Step Functions?**
+Using AWS Step Functions in this pipeline provides several key advantages:
 
+Clear Orchestration & Visibility:
+Step Functions allow you to define complex workflows with clear, visual state transitions and execution history, making debugging and monitoring easier.
+
+Parallel Execution & Fine-Grained Control:
+Tasks like unit testing and static analysis can run in parallel, reducing overall execution time while enabling conditional branching and granular error handling.
+
+Decoupling & Modularity:
+The pipeline logic is decoupled from CodePipeline stages, enabling reuse, extension, and independent testing of individual pipeline tasks using CodeBuild and Lambda.
 
 ## Pipeline Workflow
 
