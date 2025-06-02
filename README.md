@@ -7,7 +7,7 @@ This project implements a robust CI/CD pipeline using **AWS CodePipeline** and *
 ![image](https://github.com/user-attachments/assets/c8d8f186-a7aa-41a0-bc67-654345679233)
 
 **Why Use AWS Step Functions?**
-Using AWS Step Functions in this pipeline provides several key advantages:
+- Using AWS Step Functions in this pipeline provides several key advantages:
 
 **Clear Orchestration & Visibility:**
 - Step Functions allow you to define complex workflows with clear, visual state transitions and execution history, making debugging and monitoring easier.
